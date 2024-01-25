@@ -1,8 +1,4 @@
 apiVersion: v1
-kind: ConfigMap
-metadata:
-  name: index-html-configmap
-  namespace: devops-tools
 data:
   index.html: |
     <html>
@@ -10,3 +6,7 @@ data:
     </br>
     <h1>CSE DEMO - TEST ENV </h1>
     </html
+kind: ConfigMap
+metadata:
+  name: index-html-configmap
+  namespace: devops-tools
